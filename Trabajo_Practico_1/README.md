@@ -31,8 +31,6 @@ Trabajo_Practico_1/
 │   ├── wp_wp_red2.jpg
 │   ├── wp_wp_red2.png
 ```
-```
-
 
 - **Parte 1 (imágenes en /white_patch):**
   1. Implementar el algoritmo White Patch para librarnos de las diferencias de color de iluminación.
