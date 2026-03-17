@@ -30,21 +30,7 @@ Trabajo_Practico_1/
 │   ├── wp_wp_red.png
 │   ├── wp_wp_red2.jpg
 │   ├── wp_wp_red2.png
-└── VpC1_Vazquez_Workspace/        # Subrepo (clonado)
-  ├── README.md
-  └── Trabajo_Practico_1/
-    ├── img1_tp.png
-    ├── img2_tp.png
-    ├── segmentacion.png
-    └── white_patch/
-      ├── test_blue.png
-      ├── test_green.png
-      ├── test_red.png
-      ├── wp_blue.jpg
-      ├── wp_green.png
-      ├── wp_green2.jpg
-      ├── wp_red.png
-      ├── wp_red2.jpg
+```
 ```
 
 
