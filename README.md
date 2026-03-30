@@ -27,6 +27,10 @@ VpC1_Vazquez_Workspace/
 │   ├── focus_video.mov                    # Video a procesar
 │   ├── focus_matrix/                      # Resultados de matriz de enfoque
 │   └── focus_curves/                      # Resultados de curvas de enfoque
+├── Trabajo_Practico_3/                    # TP3 - Template Matching
+│   ├── README.md                          # Consigna y detalles del TP3
+│   ├── images/                            # Imágenes a procesar
+│   └── template/                          # Templates para matching
 ```
 
 ## Trabajos Prácticos
@@ -34,6 +38,7 @@ VpC1_Vazquez_Workspace/
 | TP | Tema | Estado |
 |----|------|--------|
 | [TP1](Trabajo_Practico_1/) | White Patch y procesamiento de imágenes | Completo |
-| [TP2](Trabajo_Practico_2/) | Detector de máximo enfoque en video | En desarrollo |
+| [TP2](Trabajo_Practico_2/) | Detector de máximo enfoque en video | Completo |
+| [TP3](Trabajo_Practico_3/) | Template Matching | En desarrollo |
 
 ---
