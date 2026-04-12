@@ -6,6 +6,7 @@
 Trabajo_Practico_3/
 ├── tp3_punto1.py                  # Script para el punto 1
 ├── tp3_punto2.py                  # Script para el punto 2
+├── tp3_punto3.py                  # Script para el punto 3
 ├── tp3_punto1_reporte.md          # Reporte del punto 1
 ├── README.md                      # Este archivo
 ├── images/                        # Imágenes a procesar
@@ -20,7 +21,8 @@ Trabajo_Practico_3/
 │   └── pattern.png
 ├── output/                        # Resultados de las detecciones
 │   ├── tp3_punto1_resultado.png
-│   └── tp3_punto2_resultado.png
+│   ├── tp3_punto2_resultado.png
+│   └── tp3_punto3_resultado.png
 ```
 
 ## Objetivo
