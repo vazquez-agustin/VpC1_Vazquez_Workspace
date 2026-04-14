@@ -2,7 +2,7 @@
 TP3 - Punto 3: Generalización del algoritmo de múltiples detecciones
 =====================================================================
 Extiende el algoritmo del Punto 2 (iterative minMaxLoc + enmascarado)
-a TODAS las imágenes, combinándolo con búsqueda multi-escala del Punto 1
+a todas las imágenes, combinándolo con búsqueda multi-escala del Punto 1
 para ser robusto a diferentes tamaños de logo.
 
 Método:
@@ -28,7 +28,7 @@ OUTPUT_DIR    = os.path.join(BASE, "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 IMAGE_FILES = [
-    "COCA-COLA-LOGO.jpg",
+    
     "coca_logo_1.png",
     "coca_logo_2.png",
     "coca_multi.png",
@@ -136,10 +136,12 @@ def detectar_logos(ruta_imagen):
         detecciones.append((x, y, rw, rh, max_val))
 
         # Enmascarar zona detectada
-        y1 = max(0, y - rh)
-        y2 = min(mapa_trabajo.shape[0], y + 2 * rh)
-        x1 = max(0, x - rw)
-        x2 = min(mapa_trabajo.shape[1], x + 2 * rw)
+        pad_x = rw // 2
+        pad_y = rh // 2
+        y1 = max(0, y - pad_y)
+        y2 = min(mapa_trabajo.shape[0], y + rh + pad_y)
+        x1 = max(0, x - pad_x)
+        x2 = min(mapa_trabajo.shape[1], x + rw + pad_x)
         mapa_trabajo[y1:y2, x1:x2] = 0
 
     return detecciones, imagen

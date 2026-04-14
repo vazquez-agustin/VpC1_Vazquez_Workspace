@@ -39,6 +39,6 @@ VpC1_Vazquez_Workspace/
 |----|------|--------|
 | [TP1](Trabajo_Practico_1/) | White Patch y procesamiento de imágenes | Completo |
 | [TP2](Trabajo_Practico_2/) | Detector de máximo enfoque en video | Completo |
-| [TP3](Trabajo_Practico_3/) | Template Matching | En desarrollo |
+| [TP3](Trabajo_Practico_3/) | Template Matching | Completo |
 
 ---
